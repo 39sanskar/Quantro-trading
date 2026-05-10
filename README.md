@@ -175,12 +175,12 @@ Users can easily search for cryptocurrencies and access:
 
 Add your project Diagram here.
 
-```md
+
 ![Quantro Application Architecture Diagram](https://github.com/39sanskar/Quantro-trading/blob/main/frontend/public/architecture_diagram.png)
 ![Client Server Architecture Diagram](./frontend/public/client_server_architecture.png)
 ![Web Architecture Diagram](./frontend/public/web_application_diagram.png)
 ![ER Diagram](./frontend/public/engineering_diagram.png)
-```
+
 
 ---
 
