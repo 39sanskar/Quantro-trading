@@ -1,7 +1,198 @@
-# Quantro-trading
+# Quantro Trading Application
+
+A modern and secure cryptocurrency trading platform that enables users to buy, sell, manage, and track digital assets in real-time. The platform integrates AI-powered assistance, secure wallet management, advanced authentication, and seamless payment gateways to deliver a complete crypto trading experience.
+
+---
+
+# Features
+
+## AI Chat Bot
+An intelligent AI-powered chatbot integrated using Gemini API and CoinGecko API to provide:
+
+- Real-time cryptocurrency prices
+- Market trends and insights
+- Coin-related queries
+- Trading assistance
+- Crypto market data analysis
+
+---
+
+## Buy & Sell Crypto
+A seamless and user-friendly trading interface allowing users to:
+
+- Buy cryptocurrencies instantly
+- Sell digital assets securely
+- Access live market prices
+- Trade multiple cryptocurrencies
+
+---
+
+## Portfolio Management
+Advanced portfolio management tools to help users:
+
+- Track investment performance
+- Monitor profit and loss
+- View total portfolio balance
+- Analyze market movements
+
+---
+
+# Advanced Wallet Functionality
+
+## Wallet to Wallet Transfer
+- Secure crypto transfer between users
+- Instant transaction processing
+- Real-time balance updates
+
+## Withdrawal to Bank Account
+- Withdraw wallet balance directly to bank accounts
+- Secure payment verification
+- Fast transaction processing
+
+## Add Balance to Wallet
+- Add funds securely using payment gateways
+- Smooth deposit experience
+- Instant wallet updates
+
+---
+
+# Transaction History
+
+## Withdrawal History
+- View previous withdrawals
+- Track withdrawal status
+- Monitor transaction records
+
+## Wallet History
+- Complete transaction logs
+- Deposit and transfer history
+- Detailed wallet activity tracking
+
+---
+
+# Search Coin Functionality
+Users can easily search for cryptocurrencies and access:
+
+- Live prices
+- Market capitalization
+- Trading volume
+- Coin details and trends
+
+---
+
+# Authentication & Security
+
+## Login & Register
+- Secure user authentication system
+- Encrypted password management
+- User session handling
+
+## Two-Factor Authentication (2FA)
+- Extra layer of account protection
+- OTP verification system
+- Improved account security
+
+## Forgot Password
+- Password recovery via email
+- Secure reset token mechanism
+- User-friendly recovery process
+
+---
+
+# Technology Stack
+
+## Backend Technologies
+
+| Technology | Description |
+|------------|-------------|
+| Spring Boot | Backend application framework |
+| Spring Security | Authentication & authorization |
+| MySQL | Relational database management |
+| Java Mail Sender | Email and OTP services |
+
+---
+
+## Frontend Technologies
+
+| Technology | Description |
+|------------|-------------|
+| React | Frontend UI library |
+| Tailwind CSS | Utility-first CSS framework |
+| Redux | State management |
+| Axios | API handling |
+| React Router DOM | Client-side routing |
+| Shadcn UI | Modern UI components |
+
+---
+
+# Payment Gateways
+
+## Razorpay
+- Secure Indian payment gateway integration
+- Wallet recharge and transactions
+
+## Stripe
+- Global payment processing
+- Secure online payment handling
+
+---
+
+# APIs Used
+
+| API | Purpose |
+|-----|---------|
+| Gemini API | AI chatbot integration |
+| CoinGecko API | Real-time crypto market data |
+
+---
+
+# Core Functional Modules
+
+- User Authentication Module
+- Crypto Trading Module
+- Wallet Management Module
+- Portfolio Tracking Module
+- AI Chat Assistant Module
+- Transaction History Module
+- Payment Gateway Integration
+- Security & Verification Module
+
+---
+
+# Key Highlights
+
+- Real-Time Crypto Data
+- AI-Powered Chat Support
+- Secure Wallet Transactions
+- Modern Responsive UI
+- Scalable Backend Architecture
+- Secure Payment Integration
+- Advanced Authentication System
+
+---
+
+# Architecture Diagram 
+
+Add your project Diagram here.
+
+```md
+![Quantro Application Architecture Diagram](./frontend/public/architecture_diagram.png)
+![Client Server Architecture Diagram](./frontend/public/client_server_architecture.png)
+![Web Architecture Diagram](frontend/public/web_application_diagram.png)
+![ER Diagram](frontend/public/engineering_diagram.png)
+```
+
+---
 
 
+# ⚙️ Installation & Setup
 
+## Clone Repository
+
+```bash
+git clone https://github.com/39sanskar/Quantro-trading.git
+```
+---
 
 # Database Tables
 
@@ -344,3 +535,93 @@
 +---------------------+
 
 ```
+
+---
+
+## Backend Setup
+
+```bash
+cd backend
+```
+
+### Install Dependencies
+
+```bash
+mvn install
+```
+
+### Run Spring Boot Server
+
+```bash
+mvn spring-boot:run
+```
+
+---
+
+## Frontend Setup
+
+```bash
+cd frontend
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+# 🌐 Environment Variables
+
+## Backend `.env`
+
+```env
+DB_URL=
+DB_USERNAME=
+DB_PASSWORD=
+
+MAIL_USERNAME=
+MAIL_PASSWORD=
+
+GEMINI_API_KEY=
+COINGECKO_API_KEY=
+
+RAZORPAY_KEY=
+RAZORPAY_SECRET=
+
+STRIPE_SECRET_KEY=
+```
+
+---
+
+
+# Future Enhancements
+
+- Live Trading Charts
+- Crypto Price Alerts
+- Mobile Application
+- AI-Based Trading Suggestions
+- Multi-Currency Support
+- Advanced Analytics Dashboard
+- P2P Trading System
+
+---
+
+# Contributing
+
+Contributions are welcome. Feel free to fork the repository and submit pull requests.
+
+---
+
+# Support
+
+If you like this project, give it a ⭐ on GitHub.
+
+
