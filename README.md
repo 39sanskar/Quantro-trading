@@ -195,16 +195,6 @@ Add your project Diagram here.
 
 ---
 
-
-# ⚙️ Installation & Setup
-
-## Clone Repository
-
-```bash
-git clone https://github.com/39sanskar/Quantro-trading.git
-```
----
-
 # Database Tables
 
 ## Users Table
@@ -547,6 +537,15 @@ git clone https://github.com/39sanskar/Quantro-trading.git
 
 ```
 
+---
+
+# ⚙️ Installation & Setup
+
+## Clone Repository
+
+```bash
+git clone https://github.com/39sanskar/Quantro-trading.git
+```
 ---
 
 ## Backend Setup
